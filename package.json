@@ -1,0 +1,27 @@
+{
+  "name": "odyssey-quests",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A website for taking an odyssey quest",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "test": "tybalt test"
+  },
+  "keywords": [],
+  "author": "Douglas Wade <douglas.b.wade@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@jest/globals": "^29.7.0",
+    "@tybalt/core": "^0.1.7",
+    "@tybalt/validator": "^0.1.7"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@tybalt/cli": "^0.1.7",
+    "@tybalt/eleventy-plugin": "^0.1.7",
+    "@tybalt/test-utils": "^0.1.7"
+  }
+}
