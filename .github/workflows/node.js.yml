@@ -18,6 +18,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
+    - name: Enable Corepack before setting up Node
+      run: corepack enable
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
