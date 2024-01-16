@@ -5,9 +5,12 @@ import Compass from './compass';
 
 describe('Compass', () => {
     it('renders', async () => {
-        const mockName = 'World';
-        const wrapper = await mount(Compass, { attributes: { name: mockName } });
-        
-        expect(wrapper.html()).toContain(`Hello ${mockName}`);
+        const longitude = -122.37323;
+        const latitude = 47.66551;
+
+        const wrapper = await mount(Compass, { attributes: { longitude, latitude } });
+
+        expect(wrapper.html()).toContain(`${longitude}`);
+        expect(wrapper.html()).toContain(`${latitude}`);
     });
 });

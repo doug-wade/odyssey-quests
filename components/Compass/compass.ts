@@ -1,7 +1,7 @@
 import { defineComponent, html } from '@tybalt/core';
 import { compose, number, required } from '@tybalt/validator';
 
-import { geoPosition, theme } from 'contexts';
+import { geoPosition, theme } from '../../contexts';
 
 export default defineComponent({
     name: 'oq-compass',
