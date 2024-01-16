@@ -3360,6 +3360,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"exome@npm:^2.3.3":
+  version: 2.3.3
+  resolution: "exome@npm:2.3.3"
+  checksum: 86ccbba091c48258b7d1c0045f5037d8707e1bb212f4343d895c31db739d81f85ac6d6b1b6f26e7879e716cdc8e781bed13adb07bab854976b668d8b4cedbbb1
+  languageName: node
+  linkType: hard
+
 "expect@npm:^29.7.0":
   version: 29.7.0
   resolution: "expect@npm:29.7.0"
@@ -5739,6 +5746,7 @@ __metadata:
     "@tybalt/test-utils": "npm:^0.1.8"
     "@tybalt/validator": "npm:^0.1.8"
     eslint: "npm:^8.48.0"
+    exome: "npm:^2.3.3"
     jest: "npm:^29.7.0"
   languageName: unknown
   linkType: soft
