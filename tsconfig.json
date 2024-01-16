@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "allowJs": true,
+        "allowImportingTsExtensions": true,
         "esModuleInterop": true,
         "plugins": [{ "name": "typescript-plugin-css-modules" }],
         "target": "ES2022",

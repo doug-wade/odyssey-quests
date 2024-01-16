@@ -1,12 +1,12 @@
 import { mount } from '@tybalt/test-utils';
 import { describe, it, expect } from '@jest/globals';
 
-import HelloWorld from './hello-world';
+import Compass from './compass';
 
-describe('HelloWorld', () => {
+describe('Compass', () => {
     it('renders', async () => {
         const mockName = 'World';
-        const wrapper = await mount(HelloWorld, { attributes: { name: mockName } });
+        const wrapper = await mount(Compass, { attributes: { name: mockName } });
         
         expect(wrapper.html()).toContain(`Hello ${mockName}`);
     });
